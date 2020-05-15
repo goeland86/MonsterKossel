@@ -25,4 +25,5 @@ The aim is to further enhance the experience by incorporating many lessons learn
 It is currently being drawn and assembled in FreeCAD 0.19_pre release, using the Assembly4 plugin.
 
 ## Assembly file
-The main assembly file is bottomAssembly.FCStd - make sure you have the Assembly 4 plugin installed in FreeCAD 0.19_pre+, it will open all the other parts as needed.
+
+The main assembly file is bottomAssembly.FCStd - make sure you have the `Assembly 4` plugin installed in `FreeCAD 0.19_pre+`, it will open all the other parts as needed.
