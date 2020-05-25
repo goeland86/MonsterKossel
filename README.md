@@ -26,6 +26,8 @@ V3, shared here, is an ongoing effort to properly draw and design a revision of 
 The aim is to further enhance the experience by incorporating many lessons learned with regards to cable management.
 It is currently being drawn and assembled in FreeCAD 0.19_pre release, using the Assembly4 plugin.
 
-## Assembly file
+## Assembly file(s)
 
-The main assembly file is bottomAssembly.FCStd - make sure you have the `Assembly 4` plugin installed in `FreeCAD 0.19_pre+`, it will open all the other parts as needed.
+The main assembly file is `bottomAssembly.FCStd`, made for the `Assembly 4` plugin installed in `FreeCAD 0.19_pre+`, it will open all the other parts as needed from the folder.
+
+In search of the use of the Raytracing workbench in FreeCAD, it became clear that Assembly 4 was not going to allow the necessary items to function. Instead, `A2 Plus` does allow this, and the constraint system seems more natural. The assembly file for this plugin is `assembly2.FCStd`. However this is still done on `FreeCAD 0.19_pre`, not the 0.18 version.
