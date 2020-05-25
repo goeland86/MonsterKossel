@@ -8,6 +8,8 @@ A Kossel-inspired Delta printer with:
 * easy to tune / upgrade setups
 * M3 and M5 screws only
 
+![Monster Kossel](preview.png)
+
 ## Design history:
 
 V1 started with my taking a Kossel XL idea but noticing the OpenBeam frames just weren't rigid enough. 
