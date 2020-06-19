@@ -31,3 +31,17 @@ It is currently being drawn and assembled in FreeCAD 0.19_pre release, using the
 The main assembly file is `bottomAssembly.FCStd`, made for the `Assembly 4` plugin installed in `FreeCAD 0.19_pre+`, it will open all the other parts as needed from the folder.
 
 In search of the use of the Raytracing workbench in FreeCAD, it became clear that Assembly 4 was not going to allow the necessary items to function. Instead, `A2 Plus` does allow this, and the constraint system seems more natural. The assembly file for this plugin is `assembly2.FCStd`. However this is still done on `FreeCAD 0.19_pre`, not the 0.18 version.
+
+
+## Current development status
+
+The main frame of V3 has not been tested, and only exists as CAD files at present.
+
+The V3 frame will be built after the telescopic shaft design is fully validated. 
+A replacement for the Flex'Y effector may be forthcoming, but will not impact V3 development in any way.
+The current and upcoming effector/remote drive extruder are designed by Dan Cook (OCD3D on Thingiverse), and are his designs to distribute.
+
+The V3 repository currently contains a mock step file for validation of the delta and telescopic shaft dimensions.
+
+The telescopic shaft has been built, and is undergoing testing with regular and flexible filament prints on the V2 frame.
+
