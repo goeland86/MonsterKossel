@@ -28,10 +28,7 @@ It is currently being drawn and assembled in FreeCAD 0.19_pre release, using the
 
 ## Assembly file(s)
 
-The main assembly file is `bottomAssembly.FCStd`, made for the `Assembly 4` plugin installed in `FreeCAD 0.19_pre+`, it will open all the other parts as needed from the folder.
-
-In search of the use of the Raytracing workbench in FreeCAD, it became clear that Assembly 4 was not going to allow the necessary items to function. Instead, `A2 Plus` does allow this, and the constraint system seems more natural. The assembly file for this plugin is `assembly2.FCStd`. However this is still done on `FreeCAD 0.19_pre`, not the 0.18 version.
-
+The main assembly file is `assembly2.FCStd`, made for the `A4Plus` plugin installed in `FreeCAD 0.19_pre+`, it will open all the other parts as needed from the folder.
 
 ## Current development status
 
@@ -43,5 +40,8 @@ The current and upcoming effector/remote drive extruder are designed by Dan Cook
 
 The V3 repository currently contains a mock step file for validation of the delta and telescopic shaft dimensions.
 
-The telescopic shaft has been built, and is undergoing testing with regular and flexible filament prints on the V2 frame.
+The telescopic shaft has been built, and is printing successfully on the Flex'Y v17 (not shared as not my design) with regular and flexible filament prints on the V2 frame.
+A new revision of the Flex'Y that removes the worm drive is currently being developped to use printed bevel gears instead of a worm drive.
+
+Carriages have been redrawn as the original Kossel carriages designed for the MGN19H carriage pattern don't have enough rigidity when using the adapter plate. They will be mounted and validated on the v2 frame first, then v2 will be used to print the remaining v3 frame parts. All parts will be printed in PETG rather than PLA for heat resistance.
 
