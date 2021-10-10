@@ -28,7 +28,7 @@ It is currently being drawn and assembled in FreeCAD 0.19_pre release, using the
 
 ## Assembly file(s)
 
-The main assembly file is `assembly2.FCStd`, made for the `A4Plus` plugin installed in `FreeCAD 0.19_pre+`, it will open all the other parts as needed from the folder.
+The main assembly file is `assembly2.FCStd`, made for the `A2Plus` plugin installed in `FreeCAD 0.19_pre+`, it will open all the other parts as needed from the folder.
 
 ## Current development status
 
