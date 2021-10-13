@@ -45,3 +45,8 @@ A new revision of the Flex'Y that removes the worm drive is currently being deve
 
 Carriages have been redrawn as the original Kossel carriages designed for the MGN19H carriage pattern don't have enough rigidity when using the adapter plate. They will be mounted and validated on the v2 frame first, then v2 will be used to print the remaining v3 frame parts. All parts will be printed in PETG rather than PLA for heat resistance.
 
+## Credit
+
+I want to thank [Dan Cook](https://www.thingiverse.com/dancook3d/designs) for his wonderful [bevel geared extruder design](https://www.thingiverse.com/thing:4886240/files). We've exchanged a fair bit before he published it, and I'm happy to see that project being this successful on its own.
+Additionally he made a [great delta carriage](https://www.thingiverse.com/thing:3070352) which I'm using in the Monster Kossel design.
+Both of those designs you'll find the relevant step files in the `STEP` subfolder.
