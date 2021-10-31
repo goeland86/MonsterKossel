@@ -28,22 +28,22 @@ It is currently being drawn and assembled in FreeCAD 0.19_pre release, using the
 
 ## Assembly file(s)
 
-The main assembly file is `assembly2.FCStd`, made for the `A2Plus` plugin installed in `FreeCAD 0.19` or later, it will open all the other parts as needed from the folder.
+The main assembly file is `assembly_a2plus.FCStd`, made for the `A2Plus` plugin installed in `FreeCAD 0.19` or later, it will open all the other parts as needed from the folder.
+The other workbench that is required is the `Fasteners` workbench, to include all the screws & nuts into the assemblies.
 
 ## Current development status
 
-The main frame of V3 has not been tested, and only exists as CAD files at present.
+The main frame of V3 has not yet been tested in real life, and only exists as CAD files at present.
 
-The V3 frame will be built after the telescopic shaft design is fully validated. 
-A replacement for the Flex'Y effector may be forthcoming, but will not impact V3 development in any way.
-The current and upcoming effector/remote drive extruder are designed by Dan Cook (OCD3D on Thingiverse), and are his designs to distribute.
-
-The V3 repository currently contains a mock step file for validation of the delta and telescopic shaft dimensions.
+The V3 frame will be built soon, as the parts have been printed. Dan Cook has released his all in one effector / direct drive extruder on [Thingiverse](https://www.thingiverse.com/thing:4886240/files), including the telescoping shaft of my conception.
 
 The telescopic shaft has been built, and is printing successfully on the Flex'Y v17 (not shared as not my design) with regular and flexible filament prints on the V2 frame.
 A new revision of the Flex'Y that removes the worm drive is currently being developped to use printed bevel gears instead of a worm drive.
 
-Carriages have been redrawn as the original Kossel carriages designed for the MGN19H carriage pattern don't have enough rigidity when using the adapter plate. They will be mounted and validated on the v2 frame first, then v2 will be used to print the remaining v3 frame parts. All parts will be printed in PETG rather than PLA for heat resistance.
+Carriages have been redrawn as the original Kossel carriages designed for the MGN19H carriage pattern don't have enough rigidity when using an adapter plate. 
+All parts will be printed in PETG rather than PLA for heat resistance.
+
+The top cover will come in two versions: one as a blank template for builders to customize the layout of elements on their own, the other as I intend to build it, using 100mm AC extraction ventilation systems with filters, mounting holes for the extruder motor, wire and filament paths.
 
 ## Credit
 
