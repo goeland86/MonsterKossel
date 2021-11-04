@@ -45,6 +45,22 @@ All parts will be printed in PETG rather than PLA for heat resistance.
 
 The top cover will come in two versions: one as a blank template for builders to customize the layout of elements on their own, the other as I intend to build it, using 100mm AC extraction ventilation systems with filters, mounting holes for the extruder motor, wire and filament paths.
 
+### BOM
+
+M3x8:
+M3x10:
+M3x30: 30
+M3 nuts:
+M5x8:
+M5x10:
+M5 Openbuilds flat nuts: 
+F623ZZ flanged bearings: 6
+Nema 17: 4
+16-teeth pulleys for 5mm shaft: 3
+Acrylic sheet (3mm): 3x 900mm x 500mm
+Acrylic sheet (5mm): 450mm x 400mm
+
+
 ## Credit
 
 I want to thank [Dan Cook](https://www.thingiverse.com/dancook3d/designs) for his wonderful [bevel geared extruder design](https://www.thingiverse.com/thing:4886240/files). We've exchanged a fair bit before he published it, and I'm happy to see that project being this successful on its own.
