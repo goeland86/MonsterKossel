@@ -47,17 +47,30 @@ The top cover will come in two versions: one as a blank template for builders to
 
 ### BOM
 
-M3x8:
+M3x8: (tower assembly: 15)
+
 M3x10:
+
+M3x16: (bottom frame assembly: 
+
 M3x30: 30
+
 M3 nuts:
+
 M5x8:
+
 M5x10:
+
 M5 Openbuilds flat nuts: 
+
 F623ZZ flanged bearings: 6
+
 Nema 17: 4
+
 16-teeth pulleys for 5mm shaft: 3
+
 Acrylic sheet (3mm): 3x 900mm x 500mm
+
 Acrylic sheet (5mm): 450mm x 400mm
 
 
