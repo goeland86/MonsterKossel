@@ -47,27 +47,37 @@ The top cover will come in two versions: one as a blank template for builders to
 
 ### BOM
 
-M3x8: (tower assembly: 15)
+M3 nuts: 69 (bottom assembly: 42, top frame: 12, motor frames: 9, idler centering: 6)
 
-M3x10:
+M3 washers: 18 (motor frames: 18)
 
-M3x16: (bottom frame assembly: )
+socket cap M3x5: 15 (motor frames: 3, carriage assemblies: 12)
 
-M3x30: 3
+socket cap M3x8: 69 (tower assemblies: 45, top frame: 12, motor frames: 12)
 
-M3 nuts:
+socket cap M3x10: 24 (bottom frame: 24) - can also be M3x12
 
-M5x8:
+button cap M3x15 : 6 (motor frames: 6) - can also be longer, for bed assembly
 
-M5x10:
+socket cap M3x16: 18 (bottom frame assembly: 18) - can also be M3x15
 
-M5 Openbuilds flat nuts: 
+countersunk head M3x20: 6 (bottom frame assembly: 6)
 
-F623ZZ flanged bearings: 6
+socket cap M3x30: 3
+
+socket cap M5x8: 24 (top frame: 12, bottom frame: 12)
+
+socket cap M5x10: 9 (top frame: 9)
+
+socket cap M5x12: 18 (bottom frame: 18)
+
+socket cap M5 Openbuilds flat nuts: 51
+
+F623ZZ flanged bearings: 6 OR idler pulleys for GT2x6mm : 3
 
 Nema 17: 4
 
-16-teeth pulleys for 5mm shaft: 3
+16-teeth pulley for 5mm shaft (with M3x4 set screw): 3
 
 Acrylic sheet (3mm): 3x 900mm x 500mm
 
