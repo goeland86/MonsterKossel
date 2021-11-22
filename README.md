@@ -51,9 +51,9 @@ M3x8: (tower assembly: 15)
 
 M3x10:
 
-M3x16: (bottom frame assembly: 
+M3x16: (bottom frame assembly: )
 
-M3x30: 30
+M3x30: 3
 
 M3 nuts:
 
