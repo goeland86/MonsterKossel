@@ -47,6 +47,41 @@ The top cover will come in two versions: one as a blank template for builders to
 
 ### BOM
 
+#### Non-printed parts:
+
+MGN9H rails: 3
+
+MGN9C carriages: 3
+
+NEMA17 motors: 4
+
+Traxxas 5347 spherical joints: 12
+
+carbon / aluminum rods: estimate 6x 390mm for a 350mm bed - identical lengths required
+
+E3D V6 hotend with M-12 threaded heatsink ([blue heatsink](https://e3d-online.com/products/v6-threaded-heatsink)): 1 (if enclosed, consider getting a [water-cooled, M12-mounting](https://www.thingiverse.com/thing:3088118/files) heatsink or hotend instead)
+
+Telescoping torque shaft:
+ - aluminum square tubing 9mm on the side : length to be measured
+ - aluminum square tubing 12mm on the side : length to be measured
+ - aluminum square tubing 15mm on the side : length to be measured
+ - double u-joints with 4mm shaft: 2
+ - round 4mm steel rod: 2x 50mm
+
+[PrecisionPiezo Andromeda](https://www.precisionpiezo.co.uk/product-page/andromeda) : 3
+
+[PrecisionPiezo Universal Piezo Z-Probe PCB](https://www.precisionpiezo.co.uk/product-page/universal-piezo-z-probe-pcb-v2-x-for-1-2-3-or-more-piezos) : 1
+
+Endstops: 3 (optional if your electronics & firmware supports sensorless homing)
+
+Electrical wiring (red and black recommended in equal lengths): ~ 10m of each color recommended. Lots of variability depending on placements.
+
+GT2-6mm wide belt: 3 times twice the vertical extrusion length (for 1m tall, get 3 of 2m length, will give ~100mm of slack per tower)
+
+Control board: minimum of 4 stepper drivers + 2 heater controls (2 temperature inputs, 2 MOSFETs)
+
+PSU: Minimum of 650W if heatbed is not using AC and a relay
+
 M3 nuts: 69 (bottom assembly: 42, top frame: 12, motor frames: 9, idler centering: 6)
 
 M3 washers: 18 (motor frames: 18)
