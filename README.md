@@ -47,76 +47,71 @@ The top cover will come in two versions: one as a blank template for builders to
 
 ### BOM
 
+#### Printed parts:
+
+Best rigidity achieved using PETG or similar material, with 1 or 1.2mm thick walls, and 20% infill, and 0.2 or 0.3 layer height.
+
+- bottom corner: 3x (or bottom corner M3x10 x3, not both!)
+- motor frame: 3x
+- top corner: 3x
+- carriage belt tensioner: 3x
+- mgn9c carriage: 3x
+- extruder parts (all are x1, printed with finer layer height is better):
+  - 18T bevel
+  - 6T bevel
+  - Body top
+  - Delta effector
+  - Latch
+  - Main body center
+  - Main body left
+  - Main body right
+
 #### Non-printed parts:
 
-MGN9H rails: 3
-
-MGN9C carriages: 3
-
-NEMA17 motors: 4
-
-Traxxas 5347 spherical joints: 12
-
-carbon / aluminum rods: estimate 6x 390mm for a 350mm bed - identical lengths required
-
-E3D V6 hotend with M-12 threaded heatsink ([blue heatsink](https://e3d-online.com/products/v6-threaded-heatsink)): 1 (if enclosed, consider getting a [water-cooled, M12-mounting](https://www.thingiverse.com/thing:3088118/files) heatsink or hotend instead)
-
-Telescoping torque shaft:
+- MGN9H rails: 3
+- MGN9C carriages: 3
+- NEMA17 motors: 4
+- Traxxas 5347 spherical joints: 12
+- carbon / aluminum rods: estimate 6x 390mm for a 350mm bed - identical lengths required
+- E3D V6 hotend with M-12 threaded heatsink ([blue heatsink](https://e3d-online.com/products/v6-threaded-heatsink)): 1 (if enclosed, consider getting a [water-cooled, M12-mounting](https://www.thingiverse.com/thing:3088118/files) heatsink or hotend instead)
+- Telescoping torque shaft:
  - aluminum square tubing 9mm on the side : length to be measured
  - aluminum square tubing 12mm on the side : length to be measured
  - aluminum square tubing 15mm on the side : length to be measured
  - double u-joints with 4mm shaft: 2
  - round 4mm steel rod: 2x 50mm
-
-[PrecisionPiezo Andromeda](https://www.precisionpiezo.co.uk/product-page/andromeda) : 3
-
-[PrecisionPiezo Universal Piezo Z-Probe PCB](https://www.precisionpiezo.co.uk/product-page/universal-piezo-z-probe-pcb-v2-x-for-1-2-3-or-more-piezos) : 1
-
-Endstops: 3 (optional if your electronics & firmware supports sensorless homing)
-
-Electrical wiring (red and black recommended in equal lengths): ~ 10m of each color recommended. Lots of variability depending on placements.
-
-GT2-6mm wide belt: 3 times twice the vertical extrusion length (for 1m tall, get 3 of 2m length, will give ~100mm of slack per tower)
-
-Control board: minimum of 4 stepper drivers + 2 heater controls (2 temperature inputs, 2 MOSFETs)
-
-PSU: Minimum of 650W if heatbed is not using AC and a relay
-
-M3 nuts: 69 (bottom assembly: 42, top frame: 12, motor frames: 9, idler centering: 6)
-
-M3 washers: 18 (motor frames: 18)
-
-socket cap M3x5: 15 (motor frames: 3, carriage assemblies: 12)
-
-socket cap M3x8: 69 (tower assemblies: 45, top frame: 12, motor frames: 12)
-
-socket cap M3x12: 24 (bottom frame: 24)
-
-button cap M3x15 : 6 (motor frames: 6) - can also be longer, for bed assembly
-
-socket cap M3x16: 18 (bottom frame assembly: 18) - can also be M3x15
-
-countersunk head M3x20: 6 (bottom frame assembly: 6)
-
-socket cap M3x30: 3
-
-socket cap M5x8: 24 (top frame: 12, bottom frame: 12)
-
-socket cap M5x10: 9 (top frame: 9)
-
-socket cap M5x12: 18 (bottom frame: 18)
-
-socket cap M5 Openbuilds flat nuts: 51
-
-F623ZZ flanged bearings: 6 OR idler pulleys for GT2x6mm : 3
-
-Nema 17: 4
-
-16-teeth pulley for 5mm shaft (with M3x4 set screw): 3
-
-Acrylic sheet (3mm): 3x 900mm x 500mm
-
-Acrylic sheet (5mm): 450mm x 400mm
+- [PrecisionPiezo Andromeda](https://www.precisionpiezo.co.uk/product-page/andromeda) : 3
+- [PrecisionPiezo Universal Piezo Z-Probe PCB](https://www.precisionpiezo.co.uk/product-page/universal-piezo-z-probe-pcb-v2-x-for-1-2-3-or-more-piezos) : 1
+- Endstops: 3 (optional if your electronics & firmware supports sensorless homing)
+- Electrical wiring (red and black recommended in equal lengths): ~ 10m of each color recommended. Lots of variability depending on placements.
+- GT2-6mm wide belt: 3 times twice the vertical extrusion length (for 1m tall, get 3 of 2m length, will give ~100mm of slack per tower)
+- Control board: minimum of 4 stepper drivers + 2 heater controls (2 temperature inputs, 2 MOSFETs)
+- PSU: Minimum of 650W if heatbed is not using AC and a relay
+- M3 nuts: 69 (bottom assembly: 42, top frame: 12, motor frames: 9, idler centering: 6)
+- M3 washers: 18 (motor frames: 18)
+- socket cap M3x5: 15 (motor frames: 3, carriage assemblies: 12)
+- socket cap M3x8: 69 (tower assemblies: 45, top frame: 12, motor frames: 12)
+- socket cap M3x12: 24 (bottom frame: 24) - can be M3x10 if you print the M3x10 bottom corner parts instead.
+- button cap M3x15 : 6 (motor frames: 6) - can also be longer, for bed assembly
+- socket cap M3x16: 18 (bottom frame assembly: 18) - can also be M3x15
+- countersunk head M3x20: 6 (bottom frame assembly: 6)
+- socket cap M3x30: 3
+- socket cap M5x8: 24 (top frame: 12, bottom frame: 12)
+- socket cap M5x10: 9 (top frame: 9)
+- socket cap M5x12: 18 (bottom frame: 18)
+- socket cap M5 Openbuilds flat nuts: 51
+- F623ZZ flanged bearings: 6 OR idler pulleys for GT2x6mm : 3
+- Nema 17 motors (1.8 degree is fine, 1.2-1.5A capability sufficient): 4
+- 16-teeth pulley for 5mm shaft (with M3x4 set screw): 3
+- Acrylic sheet (3mm): 3x 900mm x 500mm (use dimensions of side_panel)
+- Acrylic sheet (5mm): 450mm x 400mm (cut using top_cover template)
+- Extruder parts:
+  - M8x35 bolt: 1
+  - MR 148ZZ bearings (8mm ID, 14mm OD, 4mm thick): 4
+  - Bondtech [dual drive gears 1.75 / 8](https://www.bondtech.se/product/drivegear-kits/): 1 set
+  - M3x12 hex socket cap
+  - M4x40 set screw
+  - M3x8 hex socket cap
 
 
 ## Credit
