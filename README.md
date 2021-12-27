@@ -90,7 +90,7 @@ socket cap M3x5: 15 (motor frames: 3, carriage assemblies: 12)
 
 socket cap M3x8: 69 (tower assemblies: 45, top frame: 12, motor frames: 12)
 
-socket cap M3x10: 24 (bottom frame: 24) - can also be M3x12
+socket cap M3x12: 24 (bottom frame: 24, can also be M3x10 if printing bottom corner M3x10) 
 
 button cap M3x15 : 6 (motor frames: 6) - can also be longer, for bed assembly
 
