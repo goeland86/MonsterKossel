@@ -65,6 +65,8 @@ Best rigidity achieved using PETG or similar material, with 1 or 1.2mm thick wal
   - Main body center
   - Main body left
   - Main body right
+- OPTIONAL - for fixing the printer to a base plate, base corner holder 6x (recommend in flexible material to dampen vibration).
+
 
 #### Non-printed parts:
 
