@@ -28,8 +28,9 @@ It is currently being drawn and assembled in FreeCAD 0.19_pre release, using the
 
 ## Assembly file(s)
 
-The main assembly file is `assembly_a2plus.FCStd`, made for the `A2Plus` plugin installed in `FreeCAD 0.19` or later, it will open all the other parts as needed from the folder.
-The other workbench that is required is the `Fasteners` workbench, to include all the screws & nuts into the assemblies.
+The main assembly file is `MonsterKossel_assembly.FCStd`, made for the `Assembly3` workbench that you can find from the [Linkstage3](https://github.com/realthunder/FreeCAD_assembly3/releases) branch of FreeCAD.
+
+The other workbench that is required is the `Fasteners` workbench, to include all the screws & nuts into the assembly.
 
 ## Current development status
 
@@ -70,11 +71,13 @@ Best rigidity achieved using PETG or similar material, with 1 or 1.2mm thick wal
 
 #### Non-printed parts:
 
+- Power supply (count about 40 to 50W for the motors, plus what your hotend, electronics and fans use)
+- Electronics controller (32bit controller highly recommended, numerical precision requires extra computational power). I run mine with a [Recore](https://www.iagent.no/product/recore/)
 - MGN9H rails: 3
 - MGN9C carriages: 3
 - NEMA17 motors: 4
 - Traxxas 5347 spherical joints: 12
-- carbon / aluminum rods: estimate 6x 390mm for a 350mm bed - identical lengths required
+- carbon / aluminum rods: estimate 6x 390mm for a 350mm bed - identical lengths required (< 0.1mm difference in lengths recommended)
 - E3D V6 hotend with M-12 threaded heatsink ([blue heatsink](https://e3d-online.com/products/v6-threaded-heatsink)): 1 (if enclosed, consider getting a [water-cooled, M12-mounting](https://www.thingiverse.com/thing:3088118/files) heatsink or hotend instead)
 - Telescoping torque shaft:
  - aluminum square tubing 9mm on the side : length to be measured
@@ -84,7 +87,7 @@ Best rigidity achieved using PETG or similar material, with 1 or 1.2mm thick wal
  - round 4mm steel rod: 2x 50mm
 - [PrecisionPiezo Andromeda](https://www.precisionpiezo.co.uk/product-page/andromeda) : 3
 - [PrecisionPiezo Universal Piezo Z-Probe PCB](https://www.precisionpiezo.co.uk/product-page/universal-piezo-z-probe-pcb-v2-x-for-1-2-3-or-more-piezos) : 1
-- Endstops: 3 (optional if your electronics & firmware supports sensorless homing)
+- Endstops: 3 (optional if your electronics & firmware supports high precision sensorless homing)
 - Electrical wiring (red and black recommended in equal lengths): ~ 10m of each color recommended. Lots of variability depending on placements.
 - GT2-6mm wide belt: 3 times twice the vertical extrusion length (for 1m tall, get 3 of 2m length, will give ~100mm of slack per tower)
 - Control board: minimum of 4 stepper drivers + 2 heater controls (2 temperature inputs, 2 MOSFETs)
