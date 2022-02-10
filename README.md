@@ -118,6 +118,11 @@ Best rigidity achieved using PETG or similar material, with 1 or 1.2mm thick wal
   - M4x40 set screw
   - M3x8 hex socket cap
 
+##### Optional parts
+
+- [CPAP fan + driver](https://www.aliexpress.com/item/33041228096.html?spm=a2g0o.9042311.0.0.38a54c4dUW6Yg9)
+- CPAP mounting plate printed 1x
+
 
 ## Credit
 
