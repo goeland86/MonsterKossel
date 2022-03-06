@@ -34,23 +34,22 @@ The other workbench that is required is the `Fasteners` workbench, to include al
 
 ## Current development status
 
-The main frame of V3 has not yet been tested in real life, and only exists as CAD files at present.
+The main frame of V3 has not yet been fully tested in real life, and the CAD design is undergoing multiple improvements as the tests continue. However at this stage the mechanics are considered solid and the dimensions will not change significantly.
+Any further improvements will be to improve assembly, printability or esthetics.
 
-The V3 frame will be built soon, as the parts have been printed. Dan Cook has released his all in one effector / direct drive extruder on [Thingiverse](https://www.thingiverse.com/thing:4886240/files), including the telescoping shaft of my conception.
+Dan Cook has released his all in one effector / direct drive extruder on [Thingiverse](https://www.thingiverse.com/thing:4886240/files), including the telescoping shaft of my conception.
 
-The telescopic shaft has been built, and is printing successfully on the Flex'Y v17 (not shared as not my design) with regular and flexible filament prints on the V2 frame.
-A new revision of the Flex'Y that removes the worm drive is currently being developped to use printed bevel gears instead of a worm drive.
+Carriages have been redrawn as the original Kossel carriages designed for the MGN19H carriage pattern don't have enough rigidity when using an adapter plate.
 
-Carriages have been redrawn as the original Kossel carriages designed for the MGN19H carriage pattern don't have enough rigidity when using an adapter plate. 
-All parts will be printed in PETG rather than PLA for heat resistance.
+All parts will are printed in PETG rather than PLA for heat resistance. ABS, PCTG, PC are all possible options for the printed parts to be used. Avoid Nylons and other more flexible materials, as the parts need to be as rigid as possible to maintain dimensional stability of the assembled printer.
 
-The top cover will come in two versions: one as a blank template for builders to customize the layout of elements on their own, the other as I intend to build it, using 100mm AC extraction ventilation systems with filters, mounting holes for the extruder motor, wire and filament paths.
+The top cover will come in two versions: one as a blank template for builders to customize the layout of elements on their own, the other as I intend to build it, using 100mm (a little under 4" diameter, standard in Europe) AC extraction ventilation systems with filters, wiring and filament paths etc.
 
 ### BOM
 
 #### Printed parts:
 
-Best rigidity achieved using PETG or similar material, with 1 or 1.2mm thick walls, and 20% infill, and 0.2 or 0.3 layer height.
+Best rigidity achieved using PETG or similar flexibility of material, with 1 or 1.2mm thick walls, and 20% infill, and 0.2 or 0.3 layer height. Avoid PLA at least for the motor frames to avoid heat-induced deformation over time.
 
 - bottom corner: 3x (or bottom corner M3x10 x3, not both!)
 - motor frame: 3x
@@ -66,7 +65,7 @@ Best rigidity achieved using PETG or similar material, with 1 or 1.2mm thick wal
   - Main body center
   - Main body left
   - Main body right
-- OPTIONAL - for fixing the printer to a base plate, base corner holder 6x (recommend in flexible material to dampen vibration).
+- OPTIONAL - for fixing the printer to a base plate, base corner holder 6x (recommend in flexible material to dampen vibrations).
 
 
 #### Non-printed parts:
@@ -118,9 +117,16 @@ Best rigidity achieved using PETG or similar material, with 1 or 1.2mm thick wal
   - M4x40 set screw
   - M3x8 hex socket cap
 
+##### Optional parts
+
+- [CPAP fan + driver](https://www.aliexpress.com/item/33041228096.html?spm=a2g0o.9042311.0.0.38a54c4dUW6Yg9)
+- CPAP mounting plate printed 1x
+- Printed M12 nut 1x (make it 100% infill for robustness)
+
 
 ## Credit
 
 I want to thank [Dan Cook](https://www.thingiverse.com/dancook3d/designs) for his wonderful [bevel geared extruder design](https://www.thingiverse.com/thing:4886240/files). We've exchanged a fair bit before he published it, and I'm happy to see that project being this successful on its own.
-Additionally he made a [great delta carriage](https://www.thingiverse.com/thing:3070352) which I'm using in the Monster Kossel design.
+
+Additionally he made a [great delta carriage](https://www.thingiverse.com/thing:3070352) which I'm using the tensioner design for in this project.
 Both of those designs you'll find the relevant step files in the `STEP` subfolder.
