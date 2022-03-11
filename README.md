@@ -51,7 +51,7 @@ The top cover will come in two versions: one as a blank template for builders to
 
 Best rigidity achieved using PETG or similar flexibility of material, with 1 or 1.2mm thick walls, and 20% infill, and 0.2 or 0.3 layer height. Avoid PLA at least for the motor frames to avoid heat-induced deformation over time.
 
-- bottom corner: 3x (or bottom corner M3x10 x3, not both!)
+- bottom corner: 3x
 - motor frame: 3x
 - top corner: 3x
 - carriage belt tensioner: 3x
@@ -65,7 +65,16 @@ Best rigidity achieved using PETG or similar flexibility of material, with 1 or 
   - Main body center
   - Main body left
   - Main body right
-- OPTIONAL - for fixing the printer to a base plate, base corner holder 6x (recommend in flexible material to dampen vibrations).
+
+OPTIONAL 
+
+- base corner holder 6x (recommend in flexible material to dampen vibrations, to hold the printer properly in place on a plate/table).
+- CPAP-fan-diffuser 1x (to bring in part cooling air from an outside fan blowing cold air onto the part, recommend PETG/high temp material)
+
+If using an E3D watercooling kit for the hotend:
+
+- Watercooling-pump-bracket-bottom x1
+- Watercooling-pump-bracket-top x1
 
 
 #### Non-printed parts:
@@ -95,8 +104,8 @@ Best rigidity achieved using PETG or similar flexibility of material, with 1 or 
 - M3 washers: 18 (motor frames: 18)
 - socket cap M3x5: 15 (motor frames: 3, carriage assemblies: 12)
 - socket cap M3x8: 69 (tower assemblies: 45, top frame: 12, motor frames: 12)
-- socket cap M3x12: 24 (bottom frame: 24) - can be M3x10 if you print the M3x10 bottom corner parts instead.
-- button cap M3x15 : 6 (motor frames: 6) - can also be longer, for bed assembly
+- socket cap M3x10: 24 (bottom frame: 24)
+- button cap M3x15 : 6 (motor frames: 6) - can also be longer, for bed assembly, but no longer than M3x30 (blocked by the NEMA 17 motor otherwise)
 - socket cap M3x16: 18 (bottom frame assembly: 18) - can also be M3x15
 - countersunk head M3x20: 6 (bottom frame assembly: 6)
 - socket cap M3x30: 3
@@ -107,8 +116,8 @@ Best rigidity achieved using PETG or similar flexibility of material, with 1 or 
 - F623ZZ flanged bearings: 6 OR idler pulleys for GT2x6mm : 3
 - Nema 17 motors (1.8 degree is fine, 1.2-1.5A capability sufficient): 4
 - 16-teeth pulley for 5mm shaft (with M3x4 set screw): 3
-- Acrylic sheet (3mm): 3x 900mm x 500mm (use dimensions of side_panel)
-- Acrylic sheet (5mm): 450mm x 400mm (cut using top_cover template)
+- Acrylic/glass/wood sheet (3mm): 3x 810mm x 500mm (use dimensions of side_panel file instead)
+- Acrylic/wood/carbon/fiberglass sheet (5mm): 450mm x 400mm (cut using top_cover dimensions)
 - Extruder parts:
   - M8x35 bolt: 1
   - MR 148ZZ bearings (8mm ID, 14mm OD, 4mm thick): 4
@@ -121,12 +130,12 @@ Best rigidity achieved using PETG or similar flexibility of material, with 1 or 
 
 - [CPAP fan + driver](https://www.aliexpress.com/item/33041228096.html?spm=a2g0o.9042311.0.0.38a54c4dUW6Yg9)
 - CPAP mounting plate printed 1x
+- [E3D watercooling kit](https://e3d-online.com/products/water-cooling-kit)
 - Printed M12 nut 1x (make it 100% infill for robustness)
-
 
 ## Credit
 
-I want to thank [Dan Cook](https://www.thingiverse.com/dancook3d/designs) for his wonderful [bevel geared extruder design](https://www.thingiverse.com/thing:4886240/files). We've exchanged a fair bit before he published it, and I'm happy to see that project being this successful on its own.
+I want to thank [Dan Cook](https://www.thingiverse.com/dancook3d/designs) for his wonderful [bevel geared extruder design](https://www.thingiverse.com/thing:4886240/files). We've exchanged a fair bit to iterate the design before he published it, and I'm happy to see that project being this successful on its own.
 
-Additionally he made a [great delta carriage](https://www.thingiverse.com/thing:3070352) which I'm using the tensioner design for in this project.
-Both of those designs you'll find the relevant step files in the `STEP` subfolder.
+Additionally he made a [great delta carriage](https://www.thingiverse.com/thing:3070352) which I'm using the tensioner design from in this project.
+Both of those designs you'll find the relevant step files in the `STEP` subfolder, and they're straight copies from his Thingiverse designs. I just included them for completeness here.
