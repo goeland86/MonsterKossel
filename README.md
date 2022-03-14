@@ -53,17 +53,26 @@ The top cover will come in two versions: one as a blank template for builders to
 Best rigidity achieved using PETG or similar flexibility of material, with 1 or 1.2mm thick walls, and 20% infill, and 0.2 or 0.3 layer height. Avoid PLA at least for the motor frames to avoid heat-induced deformation over time.
 
 - bottom corner: 3x
+
 ![Bottom corner](images/bottom_corner.png)
+
 - motor frame: 3x (print upside down, flip 180 degrees along x or y in your slicer)
+
 ![Motor frame](images/motor_frame.png)
+
 - top corner: 3x
+
 ![Top corner](images/top_corner.png)
+
 - carriage belt tensioner: 3x
+
 ![carriage belt tensioner](images/carriage_belt_tensioner.png)
+
 - mgn9c carriage: 3x
+
 ![carriage](images/carriage.png)
+
 - extruder parts (all are x1, printed with finer layer height is better):
-![extruder](images/extruder.png)
   - 18T bevel
   - 6T bevel
   - Body top
@@ -73,18 +82,27 @@ Best rigidity achieved using PETG or similar flexibility of material, with 1 or 
   - Main body left
   - Main body right
 
+![extruder](images/extruder.png)
+
+
 OPTIONAL 
 
 - base corner holder 6x (recommend in flexible material to dampen vibrations, to hold the printer properly in place on a plate/table).
+
 ![base corner](images/base_corner.png)
+
 - CPAP-fan-diffuser 1x (to bring in part cooling air from an outside fan blowing cold air onto the part, recommend PETG/high temp material)
+
 ![fan diffuser](images/fan_diffuser.png)
 
 If using an E3D watercooling kit for the hotend:
 
 - Watercooling-pump-bracket-bottom x1
+
 ![watercooling bracket bottom](images/water_bracket_bottom.png)
+
 - Watercooling-pump-bracket-top x1
+
 ![watercooling bracket top](images/water_bracket_top.png)
 
 
