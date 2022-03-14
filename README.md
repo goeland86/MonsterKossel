@@ -8,6 +8,7 @@ A Kossel-inspired Delta printer with:
 * easy to tune / upgrade setups
 * M3 and M5 screws only
 
+The image is missing the second rod per tower, and is not showing some of the screws - this is normal. A photo of the final, assembled printer is coming.
 ![Monster Kossel](images/preview.png)
 
 ## Design history:
