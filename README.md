@@ -106,6 +106,10 @@ If using an E3D watercooling kit for the hotend:
 ![watercooling bracket top](images/water_bracket_top.png)
 
 
+- bearing ujoint cube x2
+
+- bearing ujoint fitting x4
+
 #### Non-printed parts:
 
 - Power supply (count about 40 to 50W for the motors, plus what your hotend, electronics and fans use)
@@ -154,6 +158,8 @@ If using an E3D watercooling kit for the hotend:
   - M3x12 hex socket cap
   - M4x40 set screw
   - M3x8 hex socket cap
+- MR 84 ZZ bearings (ID 4mm, OD 8 mm, 3mm thick) x4
+- Needle bearings (ID 4mm, OD 7mm, length 7mm) x4
 
 ##### Optional parts
 
