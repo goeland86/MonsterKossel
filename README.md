@@ -29,7 +29,7 @@ It is currently being drawn and assembled in FreeCAD 0.19_pre release, using the
 
 ## Assembly file(s)
 
-The main assembly file is `MonsterKossel_assembly.FCStd`, made for the `Assembly3` workbench that you can find from the [Linkstage3](https://github.com/realthunder/FreeCAD_assembly3/releases) branch of FreeCAD.
+The main assembly file is `MonsterKossel_assembly.FCStd`, made for the `Assembly3` workbench that you can find from the addon manager, use with FreeCAD 0.20+.
 
 The other workbench that is required is the `Fasteners` workbench, to include all the screws & nuts into the assembly.
 
